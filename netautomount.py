@@ -135,7 +135,7 @@ class iface_monitor:
 if __name__ == '__main__':
     loop_delay = 10
     conf_dir=os.getenv('HOME')+"/.netautomount.d"
-    ifaces_startpatterns=['eth','wlan']
+    ifaces_startpatterns=['eth','enp0s25','wlan','wlp4s']
 
     monitor = iface_monitor(loop_delay)
 
